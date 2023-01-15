@@ -55,7 +55,11 @@ const Register = ({ user, setUser }) => {
           </button>
         </div>
         <div className='registercontainer'>
-          {registerStatus && <Link className={status}>{registerStatus}</Link>}
+          {registerStatus && (
+            <Link to='/' className={status}>
+              {registerStatus}
+            </Link>
+          )}
         </div>
       </div>
     </form>
