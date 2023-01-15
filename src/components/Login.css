@@ -1,0 +1,135 @@
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5px;
+  width: fit-content;
+  background-color: white;
+  padding: 60px 40px;
+  border-radius: 20px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-container input {
+  border-radius: 30px;
+  padding: 15px;
+  border: 1px solid rgba(0, 0, 0, 0.435);
+  width: 250px;
+}
+
+.input-container input:focus {
+  outline: none;
+}
+.username {
+  position: relative;
+}
+
+.password {
+  position: relative;
+}
+
+.username::after {
+  content: "Username";
+  position: absolute;
+  top: 12px;
+  right: 40px;
+  background-color: white;
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 0.952);
+  pointer-events: none;
+  font-weight: 900;
+  padding: 1px;
+}
+
+.password::after {
+  content: "Password";
+  position: absolute;
+  top: -9px;
+  left: 13px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 1px;
+  color: rgba(0, 0, 0, 0.952);
+  pointer-events: none;
+  font-weight: 900;
+}
+
+.eye {
+  position: absolute;
+  top: 15px;
+  right: 14px;
+  font-size: 19px;
+  cursor: pointer;
+}
+.button-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 10px;
+  position: relative;
+}
+
+.button-container .button {
+  width: 150px;
+  height: 35px;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  background-color: blue;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px;
+}
+.registercontainer {
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+.green {
+  background-color: #0ead69;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  position: absolute;
+  top: -330px;
+  left: 12px;
+  width: fit-content;
+  font-weight: 900;
+}
+.red {
+  background-color: #ef233c;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  position: absolute;
+  top: -330px;
+  left: 12px;
+  font-weight: 900;
+}
+
+.hata {
+  position: absolute;
+  background-color: red;
+  top: -280px;
+  left: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+}

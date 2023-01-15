@@ -1,0 +1,98 @@
+.todoContainer {
+  width: 100vw;
+  height: 100vh;
+  background-color: #eee;
+  display: flex;
+  padding: 150px;
+  align-items: center;
+  flex-direction: column;
+  overflow: auto;
+  min-width: 325px;
+}
+
+.entertodo {
+  display: Flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 250px;
+}
+.entertodo input {
+  height: 40px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: transparent;
+  padding: 10px;
+}
+
+.entertodo button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: blue;
+  color: white;
+}
+
+.entertodo input:focus {
+  outline: none;
+}
+
+.todolist {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.todolist-container {
+  min-width: 300px;
+  max-width: 300px;
+  text-align: center;
+  background-color: #ddd;
+  margin: 5px;
+  padding: 20px 40px;
+  letter-spacing: 2px;
+  gap: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 10px;
+  word-wrap: break-word;
+  position: relative;
+}
+
+.todolist-container button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 15px;
+}
+
+.activeuser {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: orange;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.activeuser button {
+  padding: 10px 20px;
+  border-radius: 15px;
+}
